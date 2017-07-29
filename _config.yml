@@ -1,13 +1,13 @@
 # Site settings
-title: Personal Blog
-description: A blog about God
+title: La Gioconda Sad
+description: La Gioconda Sad
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Joaquin Garmendia
-user_description: Developer
-user_title: I like programming
+username: La Gioconda Sad
+user_description: Major Goblin
+user_title: by Joaquin Garmendia
 email: joaquin.garmendia@ucsp.edu.pe
 twitter_username: joaquingx
 github_username:  joaquingx
