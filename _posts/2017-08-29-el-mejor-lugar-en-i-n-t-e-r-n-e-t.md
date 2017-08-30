@@ -6,6 +6,7 @@ image: '/assets/img/'
 description: 
 tags: lo-fi vaporwave internet comunidad papita
 categories: others
+comments:true
 twitter_text: 
 ---
 
