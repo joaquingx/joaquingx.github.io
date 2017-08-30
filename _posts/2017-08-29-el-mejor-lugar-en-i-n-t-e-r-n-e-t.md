@@ -9,32 +9,32 @@ categories: others
 twitter_text: 
 ---
 
-Para la gente que ha estado en internet tanto tiempo como yo, sabe que casi ninguna lugar es real, no puedes confiar que
+Para la gente que ha estado mucho tiempo en internet, sabe que casi ninguna lugar es real, no puedes confiar en que
 una persona es realmente quien dice ser, es por lo menos lo normal para mi, y la gente que no lo ve así, normalmente ter
-minan perdiendo. Hace unos días estaba revisando las recomendaciones de youtube
+mina perdiendo. Hace unos días estaba revisando las recomendaciones de youtube
 y me encontré con esta **joya**:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tcruyyY18e8" frameborder="0" allowfullscreen></iframe>
 *Les recomiendo seguir la lectura del post mientras la escuchan*
 
 Debo decir que al principio no le di bola, me pareció uno más de los remixes que hacen en internet con videos virales.
-Más tarde ese mismo dia o al dia siguiente la escuche de nuevo y me empezo a gustar, pensé "Hey, no esta tan mal", y la
- empecé a escuchar mientras hacía mis cosas y me relajaba bastante. Después de escucharla unas cuantas veces, se me ocurrió
-ver los comentarios, supuse que alguno de ellos me sacaría un buen lol, pero me encontré algo realmente mejor, comentarios
-que eran reales, que por alguna razón decidieron compartirlas en este video. Les muestro uno de los comentarios mas cheveres
-que lei en ese video: ![alt text](http://i.imgur.com/qHsPcyE.png), y este comentario tenia respuestas igual de reales y
-sentidas que ese mismo comentario, y yo no podia creer que exista un lugar en internet( especialmente en youtube ), formando
-esta pequeña comunidad. Después de pasarmela un rato en los comentarios de ese video, en los cuales te sientes parte de una bonita hermandad, 
-una real, todos reflexionaban sobre las pequeñas cosas que nos hacían felices cuando pequeños y lo poco
-que las valoramos ahora, realmente fue uno de los mejores momentos que viví gracias a internet. Me pase el dia pensando
+Más tarde ese mismo dia o al siguiente la escuche de nuevo y me empezo a gustar, pensé "Hey, no esta tan mal". De a pocos, la
+ empecé a escuchar mientras hacía mis cosas era bastante relajante. Después de escucharla unas cuantas veces, se me ocurrió
+ver los comentarios, supuse que alguno de ellos me sacaría un buen lol, pero me encontré algo mejor, comentarios
+que eran *reales*, que por alguna razón la gente decidia compartir en este video. Les muestro uno de los comentarios mas cheveres
+que lei : ![alt text](http://i.imgur.com/qHsPcyE.png) Este comentario tenia respuestas igual de reales y
+sentidas, y yo no podia creer que existiese un lugar asi en internet( especialmente en youtube), senti que era una 
+pequeña comunidad. Después de pasarmela un rato en los comentarios, en los cuales te sientes parte de una bonita hermandad, 
+una real,  en donde todos reflexionan sobre las pequeñas cosas que nos hacían felices cuando pequeños y lo poco
+que las valoramos ahora. Realmente fue uno de los mejores momentos que viví gracias a internet. Me pase el dia pensando
 que esa pequeña comunidad que se había formado en los comentarios era algo bastante raro y único y me puse feliz, ya que me sentía
-parte de ella. Más tarde, se me ocurrio buscar más música parecida al video que acababa de ver, me enteré que pertenece al generó 
+parte de ella. Más tarde, se me ocurrio buscar más música parecida al video que acababa de ver, y me enteré que pertenece al generó 
 **lo fi hip-hop**, aunque muchos otros dicen que es **vaporwave**. Encontre el canal de [neotic](https://www.youtube.com/channel/UCoP2nmYSKQ0oisOGCLmPLcQ)
-donde encontré mucha música similar a la gloriosa **P A P I T A**. Estuve escuchandola un rato y me cebé bastante, y nuevamente
-se me ocurrió ir a los comentarios, sin ninguna expectativa de encontrar algo como lo que me paso con P A P I T A. Otra vez me
-lleve una sorpresa, ya que los comentarios que encontré eran muy reales, y al igual que en P A P I T A sentí que
+donde hay mucha música similar a **P A P I T A**!. Estuve escuchandola un rato y me cebé bastante, nuevamente
+se me ocurrió ir a los comentarios, sin ninguna expectativa de encontrar algo como lo que habia en  **P A P I T A**. Otra vez me
+lleve una sorpresa, ya que los comentarios que encontré eran muy reales, y al igual que en **P A P I T A** sentí que
 había una pequeña comunidad, y saben, los comentarios te hacen pensar mucho sobre si lo estas haciendo bien, sobre cosas que normalmente
- tratas de evitar, escapar de ello, pero sabes que al final, tendrás que pensar en ello. Para mi fue muy chévere, que esta pequeño clan
- te ayude a pensar en esas cosas de las que a veces escapas y además muchos de ellos te ofrecen su apoyo, que particularmente me pareció muy sincero.
+ tratas de evitar, escapar de ello, pero sabes que al final, tendrás que pensarlo. Para mi fue muy chévere, que esta pequeño clan
+ te ayude a reflexionar sobre esas cosas de las que a veces escapas y además muchos de ellos te ofrecen su apoyo, que particularmente me pareció muy sincero.
 Les dejo alguno de los videos de los que les hablo y espero que ustedes tambien vean en ellos lo especial que es:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJngStpPzYU" frameborder="0" allowfullscreen></iframe>
@@ -46,7 +46,7 @@ Algunos comentarios:
 
 
 Aunque mucho de los comentarios que encontrarán son tristes, yo creo que ese momento triste te ayuda muchísimo a pensar y ver en lo
-que estas fallando y *mejorar*. No se que tienen esos videos que hacen que se forme esa comunidad pero agradezco que sea así.
+que estas fallando y *mejorar*. No se que tienen esos videos que hacen que se forme una comunidad pero agradezco que sea así.
 
 Bueno, espero que si alguien sigue mi recomendación le sirva realmente. No importa si la papean o agarran del bowl!.
 **_Ponganle papita a todo!_**
