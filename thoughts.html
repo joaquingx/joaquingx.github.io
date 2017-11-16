@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "Thoughts"
+permalink: /thoughts/index.html
+image: '/assets/img/series.png'
+description: "Y i'm not in drugs?"
+---
+
+
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+         {% if post.categories[0] == "thoughts" %}
+              <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                   {{post.content}}
+              </article>
+         {% endiqf %}
+    {% endfor %}
+</main>

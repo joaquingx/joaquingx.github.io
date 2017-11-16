@@ -32,7 +32,7 @@ hip-hop**, aunque muchos otros dicen que es **vaporwave**. Encontre el canal de 
 donde hay mucha música similar a **P A P I T A**!. Estuve escuchandola un rato y me cebé bastante, nuevamente se me ocurrió ir a los comentarios, 
 sin ninguna expectativa de encontrar algo como lo que habia en  **P A P I T A**. Otra vez me lleve una sorpresa, ya que los comentarios que 
 encontré eran muy reales, y al igual que en **P A P I T A** sentí que había una pequeña comunidad, y saben, los comentarios te hacen pensar mucho 
-sobre si lo estas haciendo bien, sobre cosas que normalmente  tratas de evitar, escapar de ello, pero sabes que al final, tendrás que pensarlo. 
+sobre si `lo estas haciendo bien, sobre cosas que normalmente  tratas de evitar, escapar de ello, pero sabes que al final, tendrás que pensarlo. 
 Para mi fue muy chévere, que esta pequeño clan  te ayude a reflexionar sobre esas cosas de las que a veces escapas y además muchos de ellos te 
 ofrecen su apoyo, que particularmente me pareció muy sincero. Les dejo alguno de los videos de los que les hablo y espero que ustedes tambien vean 
 en ellos lo especial que es:
