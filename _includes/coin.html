@@ -1,0 +1,26 @@
+<footer>
+    <div class='coin'>
+        <div class='front jump'>
+            <div class='star'></div>
+            <span class='currency'>$</span>
+            <div class='shapes'>
+                <div class='shape_l'></div>
+                <div class='shape_r'></div>
+                <span class='top'>Credit</span>
+                <span class='bottom' id="platica"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="publicidad">
+        <a href="https://www.apple.com/">
+        <img src="/assets/img/iphone.jpg" alt="Smiley face" width="450" height="250" >
+        </a>
+    </div>
+    <div class="paladerecha">
+        <img src="/assets/img/buho.png" alt="Smiley face">
+    </div>
+</footer>
+<script>
+    document.getElementById("platica").innerHTML = localStorage.getItem("plata");
+</script>
