@@ -3,7 +3,7 @@ title: P O N L E  P A P I T A
 description: La papeas?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-#url: "http://localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#url: "http://localhost:3000" 
 
 # User settings
 username: Joaquin
@@ -32,22 +32,18 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-   - title: Profesores
-     url: /tuqku
-   - title: Mi perfil
-     url: /perfil
-#  - title: Home
-#    url: /
+  - title: Home
+    url: /
 #  - title: Series
 #    url: /series
-#  - title: Toughts
-#    url: /thoughts
-#  - title: Tags
-#   url: /tags
-#  - title: About Me
-#    url: /about
-#  - title: CV
-#    url: /cv
+  - title: Toughts
+    url: /thoughts
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+  - title: CV
+    url: /cv
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
