@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "Competitive Programming"
+permalink: /competitive/index.html
+image: '/assets/img/series.png'
+description: "Class Resources"
+---
+
+
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+    {% if post.categories[0] == "competitive" %}
+    <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        {{post.content}}
+    </article>
+    {% endif %}
+    {% endfor %}
+</main>

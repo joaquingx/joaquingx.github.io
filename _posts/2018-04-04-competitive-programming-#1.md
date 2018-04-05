@@ -1,0 +1,19 @@
+---
+layout: post
+real: yes
+title: "Competitive Programming #1"
+date: 2018-04-04 19:05:46
+image: '/assets/img/'
+description:
+tags:
+categories: competitive
+twitter_text:
+---
+
+Competitive Season #1
+
+* [Competitive Programming Overview Slides](https://docs.google.com/presentation/d/1N5Ux39iMofP87Y5eGV4rHhqhhyZhfk67wDrxqxnZt24/edit?usp=sharing)
+* [Basic Weekly Contest](https://gg.com)
+* [Advanced Weekly Contest](https://gg.com)
+
+
