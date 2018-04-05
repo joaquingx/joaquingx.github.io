@@ -36,10 +36,10 @@ links:
     url: /
 #  - title: Series
 #    url: /series
-  - title: Toughts
-    url: /thoughts
-  - title: Tags
-    url: /tags
+# - title: Toughts
+#    url: /thoughts
+#  - title: Tags
+#    url: /tags
   - title: About Me
     url: /about
   - title: CV
