@@ -10,7 +10,7 @@ categories: competitive
 twitter_text:
 ---
 
-Competitive Season #2
+Competitive Class #2
 
 * [Algorithms Complexity Slides (Basic)](https://docs.google.com/presentation/d/1N5Ux39iMofP87Y5eGV4rHhqhhyZhfk67wDrxqxnZt24/edit?usp=sharing)
 * [Binary Search Slides (Basic)](http://trainingcamp.org.ar/anteriores/2017/clases/01-BS.pdf)*
