@@ -46,6 +46,8 @@ links:
     url: /cv
   - title: Competitive
     url: /competitive
+  - title: vis
+    url: /vis
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

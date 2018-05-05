@@ -6,7 +6,7 @@ date: 2018-04-04 19:05:46
 image: '/assets/img/'
 description:
 tags:
-categories: competitive
+categories: competitive 2
 twitter_text:
 ---
 
@@ -19,5 +19,3 @@ Competitive Class #3
 
 
 *Thanks to [Traning Camp Argentina](http://trainingcamp.org.ar/)
-
-

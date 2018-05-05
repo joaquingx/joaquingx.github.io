@@ -6,7 +6,7 @@ date: 2018-04-04 19:05:46
 image: '/assets/img/'
 description:
 tags:
-categories: competitive
+categories: competitive 1
 twitter_text:
 ---
 
@@ -16,5 +16,3 @@ Competitive Class #2
 * [Prefix Function (Advanced)](https://e-maxx-eng.appspot.com/string/prefix-function.html)
 * [Basic Weekly Contest](https://a2oj.com/contest?ID=36236)
 * [Advanced Weekly Contest](https://a2oj.com/contest?ID=36237)
-
-
