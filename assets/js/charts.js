@@ -191,13 +191,15 @@ function createData(){
                 }
                 var barChart = new britecharts.bar();
                 var chartTooltip = new britecharts.miniTooltip();
+                var container = d3.select(".competitive" + k )
+                var newContainerWidth = container.node() ? container.node().getBoundingClientRect().width : false;
                 barChart
                     .isHorizontal(false)
                     .margin(margin)
                     .isAnimated(true)
                     .labelsSize(50)
                     .colorSchema(britecharts.colors.colorSchemas.britecharts)
-                    .width(1000)
+                    .width(newContainerWidth)
                     //x.yAxisPaddingBetweenChart(30)
                     .height(300)
                     //.percentageAxisToMaxRatio(1.3)
