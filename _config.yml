@@ -48,6 +48,8 @@ links:
     url: /competitive
   - title: vis
     url: /vis
+  - title: final
+    url: /final
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
