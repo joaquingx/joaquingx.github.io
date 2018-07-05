@@ -5,7 +5,7 @@ body{
 
 .range {
     position: relative;
-    width: 89%;
+    width: 91%;
     height: 5px;
     margin-top: 1%;
     margin-left: 3.8%;
@@ -67,6 +67,7 @@ body{
     cursor: pointer;
     background: #4e4e4e;
 }
+
 .range input:focus {
     background: none;
     outline: none;
@@ -92,7 +93,7 @@ body{
 .range-labels li {
     position: relative;
     float: left;
-    width: 90.25px;
+    width: 7.5%;
     text-align: center;
     color: #4e4e4e;
     font-size: 14px;
@@ -128,26 +129,12 @@ body{
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    max-height: 120px;
-    height: 30px;
+    /*max-height: 120px;*/
+    height: 40px;
     margin-left: 1%;
     margin-bottom: 1%;
-    width: 70%;
-    /*width: 268px;*/
+    width:58%;
     box-shadow: 0 1px 7px #999;
-    /*z-index: 10;*/
-    /*overflow: hidden;*/
-    /*border-radius: px;*/
-    /*border-color: #0e0e0e;*/
-    /*position: absolute;*/
-    /*margin-top:-200px;*/
-    /*height: 900px;*/
-    /*width: 70%;*/
-    /*background-color: #000000;*/
-    /*border-width: 5px;*/
-    /*border-style: solid;*/
-    /*height: 200px;*/
-    /*color: #000;*/
 }
 
 .bordeame {
