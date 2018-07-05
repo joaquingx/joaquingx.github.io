@@ -14,15 +14,7 @@ var options = {
     offset: 0,
     numberOfSides: 50,
     width: 500,
-    height:500,
-    // onEachRecord: function (layer,record) {
-    //     var $html = $(L.HTMLUtils.buildTable(record));
-    //
-    //     layer.bindPopup($html.wrap('<div/>').parent().html(),{
-    //         minWidth: 400,
-    //         maxWidth: 400
-    //     });
-    // }
+    height:500
 };
 
 
@@ -80,6 +72,22 @@ function drawMarkersInMapChart(rawJson,data,cOptions,map,e,country){
     barChartMarker.addTo(map);
 }
 
+function dameHTML(specimen){
+    var author,specie,when,habitat,microhabitat;
+    author = specimen.collectedBy;
+    specie = specimen.scientificName;
+    when = specimen.dateCollectedStart;
+    habitat = specimen.habitat;
+    microhabitat = specimen.microhabitat;
+
+    return "<p>Specie: " + specie + "</p>" +
+           "<p>Habitat: " + habitat + "</p>"+
+           "<p>Microhabitat: " + microhabitat + "</p>"+
+           "<p>Collected by: " + author + "</p>" +
+           "<p>Founded on: " + when + "</p>"
+
+}
+
 function drawMarkersInMapDetail(rawJson, map,country) {
     var rawSize = rawJson["metaData"].count;
     for(var i = 0; i < rawSize ; ++i){
@@ -88,9 +96,12 @@ function drawMarkersInMapDetail(rawJson, map,country) {
         if(!isNaN(actLat) && !isNaN(actLon)) {
             console.log(actLat);
             console.log(actLon);
-            var marker = L.marker([actLat, actLon]).addTo(map);
-            var popupMessage = rawJson["specimens"][i].collectedBy;
-            marker.bindPopup("XDD");
+            var mal = Math.floor((Math.random() * 100) + 1)/1000;
+            var mal2 = Math.floor((Math.random() * 100) + 1)/1000;
+            console.log(mal + "   " + mal2);
+            var marker = L.marker([actLat+mal, actLon+mal2]).addTo(map);
+            // var popupMessage = rawJson["specimens"][i].scientificName;
+            marker.bindPopup(dameHTML(rawJson["specimens"][i])).openPopup();
             // console.log(popupMessage);
             if(markers[country] === undefined)
                 markers[country] = [];

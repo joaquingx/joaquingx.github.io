@@ -51,10 +51,6 @@ class layerController{
             var $map = $('#map');
 
             $map.height($(window).height() - $('div.navbar').outerHeight());
-
-            // if (this.map) {
-            //     this.map.invalidateSize();
-            // }
         };
 
         $(window).on('resize', function () {

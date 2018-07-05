@@ -7,35 +7,38 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1Ijoiam9hcXVpbmdjIiwiYSI6ImNqaHd5M3F2aDA2MXQzcXBkZ2YweHV6cDcifQ._MFYWngP9cXULh4OQd3NWA'
 }).addTo(mymap);
 
-var q = new Query(0);
-
-function changeFunc(id){
-    countrySelected = document.getElementById(id).value;
-    q.options[id] = countrySelected;
-    q.getWithCache(mymap);
-    console.log(q.options);
-}
+// var q = new Query(0);
+//
+// function changeFunc(id){
+//     countrySelected = document.getElementById(id).value;
+//     q.options[id] = countrySelected;
+//     q.getWithCache(mymap);
+//     console.log(q.options);
+// }
 var popup = L.popup();
 
-function onMapClick(e) {
-    //q.changeType(1);
-    var radio = 1.0;
-    q.options["country"] = "";
-    q.options["bbox"] = (e.latlng.lat + radio) + "," + (e.latlng.lng + radio) + ","+
-        + (e.latlng.lat - radio) + "," + (e.latlng.lng - radio) + ","
-        ;
-    console.log(q.options);
-    popup
-        .setLatLng(e.latlng)
-        .setContent("You clicked the map at " + e.latlng.toString())
-        .openOn(mymap);
-    q.dameConsulta(mymap);
-}
-mymap.on('click',onMapClick);
+var marker = L.marker([51.5, -0.09]).addTo(mymap);
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
-
-function dameQuery(){
-    q.options["bbox"] = "";
-    q.changeType(0);
-    q.dameConsulta(mymap);
-}
+// function onMapClick(e) {
+//     //q.changeType(1);
+//     var radio = 1.0;
+//     q.options["country"] = "";
+//     q.options["bbox"] = (e.latlng.lat + radio) + "," + (e.latlng.lng + radio) + ","+
+//         + (e.latlng.lat - radio) + "," + (e.latlng.lng - radio) + ","
+//         ;
+//     console.log(q.options);
+//     popup
+//         .setLatLng(e.latlng)
+//         .setContent("You clicked the map at " + e.latlng.toString())
+//         .openOn(mymap);
+//     q.dameConsulta(mymap);
+// }
+// mymap.on('click',onMapClick);
+//
+//
+// function dameQuery(){
+//     q.options["bbox"] = "";
+//     q.changeType(0);
+//     q.dameConsulta(mymap);
+// }

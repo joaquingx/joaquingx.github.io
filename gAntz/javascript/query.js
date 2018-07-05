@@ -79,6 +79,8 @@ class Query{
         var cnt  = 0;
         var data = {};
         var chartOptions = {};
+        console.log("El freqmap: ");
+        console.log(freqMap );
         for (let [key, value] of freqMap) {
             if(cnt < 4){
                 // var antWebTaxon = rawJson["specimens"][actJson]["antwebTaxonName"];
