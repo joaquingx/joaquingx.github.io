@@ -11,7 +11,7 @@ class Query{
         ];
         this.type = type;
         this.jsonType = this.queryType[this.type];
-        this.url = "https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
+        this.url = "https://cors.io/?https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
         this.options = {"family":"", "genus": "", "country":"Peru", "limit":"", "coords" : "",
             "Georeferenced": "1", "radius" : "2", "bbox":"", "month": "", "caste" : "Queen"};
         this.cacheJson = {};
@@ -48,14 +48,14 @@ class Query{
     changeType(type){
         this.type = type;
         this.jsonType = this.queryType[this.type];
-        this.url = "https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
+        this.url = "https://cors.io/?https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
         var jsonType = this.queryType[this.type];
     };
 
 
     getHTML(image){
         if(image === undefined)
-            image = "assets/loading.gif";
+            image = "gAntz/assets/loading.gif";
         return "<div class='bordeame'>" +
             "<img width ='100px' height='100px' src='" + image +  "'/>"+
             "</div>"
@@ -82,7 +82,7 @@ class Query{
         for (let [key, value] of freqMap) {
             if(cnt < 4){
                 // var antWebTaxon = rawJson["specimens"][actJson]["antwebTaxonName"];
-                var url = "https://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
+                var url = "https://cors.io/?https://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
                 url += key;
                 // console.log(key);
                 var self = this;
@@ -93,6 +93,7 @@ class Query{
                 if(this.photosCollector[key] === undefined){
                     var Consulta = jQuery.get(url, function (photos) {//myResult = data;
                         if(photos["taxaimages"] !== []){
+                            photos = JSON.parse(photos);
                             console.log(photos);
                             self.photosCollector[photos["metaData"]["parameters"][0]["taxonName"]] = photos["taxaImages"][0]["specimen"][0]["images"][0]["urls:"][3];
                             console.log("Lo que es photocollector cuando esta en ajax:");
@@ -212,7 +213,8 @@ class Query{
             var Consulta;
             var self = this;
             Consulta = jQuery.get(myUrl, function (data) {//myResult = data;
-                console.log(data);
+                console.log(JSON.parse(data));
+                data = JSON.parse(data);
                 self.cacheJson[self.options["country"]] = [data,0];
                 console.log(self.cacheJson[self.options["country"]]);
                 self.getWithCache(map, e, layerController);
