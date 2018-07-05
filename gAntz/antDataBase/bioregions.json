@@ -1,0 +1,100 @@
+{
+  "bioregions": [
+    {
+      "description": "including Sub-Saharan Africa", 
+      "genusCount": 114, 
+      "imageCount": 34982, 
+      "imagedSpecimenCount": 7909, 
+      "name": "Afrotropical", 
+      "speciesCount": 4709, 
+      "specimenCount": 40764, 
+      "subfamilyCount": 11
+    }, 
+    {
+      "description": "Madagascar and Southwest Indian Ocean Islands including Seychelles, Comoros, Mascarenes", 
+      "genusCount": 77, 
+      "imageCount": 28170, 
+      "imagedSpecimenCount": 6356, 
+      "name": "Malagasy", 
+      "speciesCount": 2947, 
+      "specimenCount": 138875, 
+      "subfamilyCount": 8
+    }, 
+    {
+      "description": "including the bulk of Eurasia and North Africa", 
+      "genusCount": 137, 
+      "imageCount": 21679, 
+      "imagedSpecimenCount": 5095, 
+      "name": "Palearctic", 
+      "speciesCount": 2093, 
+      "specimenCount": 41938, 
+      "subfamilyCount": 17
+    }, 
+    {
+      "description": "including Australia, New Guinea, and neighboring islands. The northern boundary of this zone is known as the Wallace line.", 
+      "genusCount": 134, 
+      "imageCount": 27139, 
+      "imagedSpecimenCount": 6210, 
+      "name": "Australasia", 
+      "speciesCount": 3404, 
+      "specimenCount": 67894, 
+      "subfamilyCount": 12
+    }, 
+    {
+      "description": "including the Indian subcontinent and Southeast Asia", 
+      "genusCount": 167, 
+      "imageCount": 24917, 
+      "imagedSpecimenCount": 5576, 
+      "name": "Indomalaya", 
+      "speciesCount": 3768, 
+      "specimenCount": 19756, 
+      "subfamilyCount": 13
+    }, 
+    {
+      "description": "Pacific Ocean islands including Polynesia, Melanesia, Micronesia.", 
+      "genusCount": 64, 
+      "imageCount": 3041, 
+      "imagedSpecimenCount": 725, 
+      "name": "Oceania", 
+      "speciesCount": 440, 
+      "specimenCount": 19864, 
+      "subfamilyCount": 9
+    }, 
+    {
+      "description": "", 
+      "genusCount": 1, 
+      "imageCount": 22, 
+      "imagedSpecimenCount": 4, 
+      "name": "Antarctica", 
+      "speciesCount": 1, 
+      "specimenCount": 4, 
+      "subfamilyCount": 1
+    }, 
+    {
+      "description": "including most of North America", 
+      "genusCount": 109, 
+      "imageCount": 14933, 
+      "imagedSpecimenCount": 3506, 
+      "name": "Nearctic", 
+      "speciesCount": 1403, 
+      "specimenCount": 60452, 
+      "subfamilyCount": 15
+    }, 
+    {
+      "description": "including South America and the Caribbean", 
+      "genusCount": 154, 
+      "imageCount": 49146, 
+      "imagedSpecimenCount": 11317, 
+      "name": "Neotropical", 
+      "speciesCount": 5344, 
+      "specimenCount": 246772, 
+      "subfamilyCount": 14
+    }
+  ], 
+  "metaData": {
+    "bioregionCount": 9, 
+    "parameters": [
+      {}
+    ]
+  }
+}
