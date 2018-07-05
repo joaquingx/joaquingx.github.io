@@ -11,7 +11,7 @@ class Query{
         ];
         this.type = type;
         this.jsonType = this.queryType[this.type];
-        this.url = "http://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
+        this.url = "https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
         this.options = {"family":"", "genus": "", "country":"Peru", "limit":"", "coords" : "",
             "Georeferenced": "1", "radius" : "2", "bbox":"", "month": "", "caste" : "Queen"};
         this.cacheJson = {};
@@ -48,7 +48,7 @@ class Query{
     changeType(type){
         this.type = type;
         this.jsonType = this.queryType[this.type];
-        this.url = "http://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
+        this.url = "https://api.antweb.org/v3.1/" + this.jsonType["type"] + "?";
         var jsonType = this.queryType[this.type];
     };
 
@@ -82,7 +82,7 @@ class Query{
         for (let [key, value] of freqMap) {
             if(cnt < 4){
                 // var antWebTaxon = rawJson["specimens"][actJson]["antwebTaxonName"];
-                var url = "http://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
+                var url = "https://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
                 url += key;
                 // console.log(key);
                 var self = this;
