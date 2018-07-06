@@ -70,7 +70,13 @@ class layerController{
             maxZoom: 18,
             id: 'mapbox.streets',
             accessToken: 'pk.eyJ1Ijoiam9hcXVpbmdjIiwiYSI6ImNqaHd5M3F2aDA2MXQzcXBkZ2YweHV6cDcifQ._MFYWngP9cXULh4OQd3NWA'
-        })
+        });
+        var sateliteLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.satellite',
+            accessToken: 'pk.eyJ1Ijoiam9hcXVpbmdjIiwiYSI6ImNqaHd5M3F2aDA2MXQzcXBkZ2YweHV6cDcifQ._MFYWngP9cXULh4OQd3NWA'
+        });
 
         baseLayer.addTo(this.map);
         // streetLayer.addTo(this.map);
@@ -81,6 +87,7 @@ class layerController{
         this.legendControl.addTo(this.map);
         this.layerControl.addBaseLayer(baseLayer,"Gray Map");
         this.layerControl.addBaseLayer(streetLayer,"Streets Map");
+        this.layerControl.addBaseLayer(sateliteLayer,"Satellite Map");
         // var pepe=L.marker([45,-15]).addTo(this.map);
         // pepe.bindPopup("xdddd").openPopup();
         // var popup = L.popup()
