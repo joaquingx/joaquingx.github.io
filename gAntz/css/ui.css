@@ -49,3 +49,8 @@ div.container-fluid {
     background-image: none;
     vertical-align: text-bottom;
 }
+
+.sidebar-image{
+    width: 100%;
+    height: 30%;
+}

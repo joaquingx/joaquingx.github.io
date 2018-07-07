@@ -20,6 +20,7 @@ var options = {
 
 var markers = {};
 var cities = L.layerGroup();
+var queries = lc.q;
 
 function searchMarker(actMarkers, lat, lon){
     jQuery.each(actMarkers, function (i, element) {
@@ -73,23 +74,27 @@ function drawMarkersInMapChart(rawJson,data,cOptions,map,e,country){
 }
 
 function dameHTML(specimen){
-    var author,specie,when,habitat,microhabitat;
+    var author,specie,when,habitat,microhabitat,image;
     author = specimen.collectedBy;
     specie = specimen.scientificName;
     when = specimen.dateCollectedStart;
     habitat = specimen.habitat;
     microhabitat = specimen.microhabitat;
-
-    return "<p>Specie: " + specie + "</p>" +
+    image = lc.q.photosCollector[specimen.antwebTaxonName];
+    if(image === undefined){
+        image = "gAntz/assets/loading.gif";
+    }
+    return "<h3>" + specie + "</h3>" +
+           "<img class='sidebar-image' src='" + image +  "'/>" +
            "<p>Habitat: " + habitat + "</p>"+
            "<p>Microhabitat: " + microhabitat + "</p>"+
            "<p>Collected by: " + author + "</p>" +
            "<p>Founded on: " + when + "</p>"
 
 }
-
 function drawMarkersInMapDetail(rawJson, map,country) {
     var rawSize = rawJson["metaData"].count;
+    var dame = {};
     for(var i = 0; i < rawSize ; ++i){
         var actLat = parseFloat(rawJson["specimens"][i].geo.coordinates.lat);
         var actLon = parseFloat(rawJson["specimens"][i].geo.coordinates.lon);
@@ -101,6 +106,11 @@ function drawMarkersInMapDetail(rawJson, map,country) {
             console.log(mal + "   " + mal2);
             var marker = L.marker([actLat+mal, actLon+mal2]).addTo(map);
             // var popupMessage = rawJson["specimens"][i].scientificName;
+            var key = rawJson["specimens"][i]["antwebTaxonName"];
+            dame[marker] = dameHTML(rawJson["specimens"][i]);
+            console.log(rawJson["specimens"][i]);
+            var queries = lc.q;
+            queries.getImage(key);
             marker.bindPopup(dameHTML(rawJson["specimens"][i])).openPopup();
             // console.log(popupMessage);
             if(markers[country] === undefined)
@@ -108,6 +118,11 @@ function drawMarkersInMapDetail(rawJson, map,country) {
             markers[country].push(marker);
         }
     }
+    // marker.on('click', function(){
+    //     // console.log(dame[key]);
+    //     document.getElementById("sidebar").innerHTML = dame[marker];
+    //     sidebar.toggle();
+    // });
 
     // var pepe=L.marker([45,-10]).addTo(map);
     // pepe.bindPopup("xdddd").openPopup();

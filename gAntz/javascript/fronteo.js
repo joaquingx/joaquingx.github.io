@@ -119,3 +119,17 @@ lc.applyColor(0);
 function applyColor(id){
     lc.applyColor(id);
 }
+
+var sidebar = L.control.sidebar('sidebar',{
+    closeButton:true,
+    position:'left'
+});
+
+lc.map.addControl(sidebar);
+// setTimeout(function () {
+//     sidebar.show();
+// }, 500);
+
+
+
+// map.addControl(sidebar);

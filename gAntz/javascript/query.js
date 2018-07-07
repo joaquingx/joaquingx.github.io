@@ -62,6 +62,21 @@ class Query{
     }
 
 
+    getImage(key){
+        var url = "https://cors.io/?https://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
+        url += key;
+        var self = this;
+        console.log(url);
+        if(this.photosCollector[key] === undefined){
+            var Consulta = jQuery.get(url, function (photos) {//myResult = data;
+                if(photos["taxaimages"] !== []){
+                    photos = JSON.parse(photos);
+                    self.photosCollector[photos["metaData"]["parameters"][0]["taxonName"]] = photos["taxaImages"][0]["specimen"][0]["images"][0]["urls:"][3];
+                }
+            });
+        }
+    }
+
     getChart(rawJson) {
         var freqMap = new Map();
         for(var actJson in rawJson["specimens"]){
@@ -83,30 +98,8 @@ class Query{
         console.log(freqMap );
         for (let [key, value] of freqMap) {
             if(cnt < 4){
-                // var antWebTaxon = rawJson["specimens"][actJson]["antwebTaxonName"];
-                var url = "https://cors.io/?https://api.antweb.org/v3.1/taxaImages?shotType=p&limit=1&taxonName=";
-                url += key;
-                // console.log(key);
+                this.getImage(key);
                 var self = this;
-                console.log("Lo que es photocollector:");
-                console.log(this.photosCollector);
-                console.log("termino photocollector");
-                console.log("Comprobando esta key "+ key + "con esto: " + this.photosCollector[key]);
-                if(this.photosCollector[key] === undefined){
-                    var Consulta = jQuery.get(url, function (photos) {//myResult = data;
-                        if(photos["taxaimages"] !== []){
-                            photos = JSON.parse(photos);
-                            console.log(photos);
-                            self.photosCollector[photos["metaData"]["parameters"][0]["taxonName"]] = photos["taxaImages"][0]["specimen"][0]["images"][0]["urls:"][3];
-                            console.log("Lo que es photocollector cuando esta en ajax:");
-                            console.log(this.photosCollector);
-                            console.log("termino photocollector ajax" );
-                            console.log(photos["metaData"]["parameters"][0]["taxonName"]);
-                            console.log(photos["taxaImages"][0]["specimen"][0]["images"][0]["urls:"][3]);
-                        }
-                        // asyncCnt++;
-                    });
-                }
                 data[key] = value;
                 if(cnt == 0) {
                     chartOptions[key] = {
