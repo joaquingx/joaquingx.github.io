@@ -2,67 +2,74 @@ html,
 body
 	height 100%
 
-
-$bg
-	background main
-	height 100%
-	.content
-		width 95%
+.down
+	position absolute
+	bottom 10%
+	width 100%
+	display block
+	text-align center
+	.icon
 		align(both)
-		text-align center
+		size(50,50)
+		fill sec
+		animation pulse 1.3s infinite
+$bg
+	position relative
+	background main
+	height 45%
+	.content
+		width 100%
+		align(both)
+
+
 
 // Header home
 .header-site
+	a
+		text-decoration none
+		color sec
 	@extends $bg
 	h1,h2
 		color: sec
 		text-align center
 	.site-title
-		font-size rem(60px)
+		cuteFont(200)
+		font-size rem(15px)
 		line-height 1
-		margin-top -80px
 		display block
-		+above(cut)
-			margin-bottom 0
-			font-size rem(100px)
 	.site-description
+		hackFont(20)
 		font-size rem(20px)
 		display block
-		margin rem(30px) 0
-		+above(cut)
-			font-size rem(40px)
+		margin rem(10px) 0
 
 // Header Post
 .header-post
 	@extends $bg
 	.content
-		+above(cut)
-			center(1000px)
-	.subheader
-		display table
-		padding 20px
-		a
-			border 2px solid sec
-			border-radius 20px
-			padding 0 10px
-			+above(cut)
-				padding 0 10px
-
+		center(1000px)
+		text-align center
+	//.subheader
+	//	display table
+	//	padding 20px
+	//	a
+	//		border 2px solid sec
+	//		border-radius 20px
+	//		padding 0 10px
+	//		+above(cut)
+	//			padding 0 10px
 	.date
-		mainFont(300)
+		cuteFont(0)
 		font-size rem(16px)
 	h1
-		text-transform uppercase
+		cuteFont(100)
 		font-size rem(30px)
 		margin 0 0 30px
-		+above(cut)
-			font-size rem(60px)
 	.subtitle
 		mainFont(300)
 		font-size rem(20px)
 	h1,.subtitle, .date
 		color sec
-		text-align center
 	p
 		color sec
 		text-decoration none

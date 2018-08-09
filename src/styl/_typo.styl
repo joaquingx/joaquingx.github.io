@@ -15,10 +15,32 @@ a
   src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v10/EInbV5DfGHOiMmvb1Xr-hiYtBUPDK3WL7KRKS_3q7OE.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'PetMe64Medium'
+  src: url('../fonts/petme64-webfont.eot');
+  src: url('../fonts/petme64-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/petme64-webfont.woff') format('woff'),
+          url('../fonts/petme64-webfont.ttf') format('truetype'),
+          url('../fonts/petme64-webfont.svg#PetMe64Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+
 mainFont(weight = 800)
-    font-family 'Open Sans', sans-serif
-    font-weight weight
-    font-style normal
+  font-family 'Century', sans-serif
+  font-weight weight
+  font-style normal
+
+hackFont(weight = 800)
+  font-family 'PetMe64Medium', sans-serif
+  font-weight weight
+  font-style normal
+
+cuteFont(weight = 800)
+  font-family 'Inconsolata', sans-serif
+  font-weight weight
+  font-style normal
 
 h1,h2,h3,h4
     mainFont()

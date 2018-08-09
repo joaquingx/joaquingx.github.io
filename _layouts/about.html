@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<html lang="pt-br">
+    {%include head.html%}
+    <body>
+    {% include menu-search.html %}
+    {% include svg-icons.html %}
+            {{ content }}
+    {% include footer.html %}
+    {% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+    {% endif %}
+    </body>
+</html>

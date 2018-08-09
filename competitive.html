@@ -8,14 +8,14 @@ description: "Class Resources"
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/britecharts@2.8.6/dist/bundled/britecharts.min.js"></script>
-<script src="{{ "/assets/js/charts.js" | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/charts.js' | prepend: site.baseurl }}"></script>
 
-<style>
-    .wacho{
-        width:100%;
-        position: relative;
-    }
-</style>
+     <style>
+         .wacho{
+             width:100%;
+             position: relative;
+        }
+     </style>
 
 
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
@@ -23,7 +23,7 @@ description: "Class Resources"
     {% if post.categories[0] == "competitive" %}
     <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
         {{post.content}}
-   <div class="wacho {{ post.categories[0] | append: post.categories[1]}}"></div>
+        <div class="wacho {{ post.categories[0] | append: post.categories[1]}}"></div>
     </article>
     {% endif %}
     {% endfor %}

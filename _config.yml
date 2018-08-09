@@ -1,6 +1,6 @@
 # Site settings
-title: P O N L E  P A P I T A
-description: La papeas?
+title: P A P I T A
+description: Joaquin Garmendia a.k.a Gioconda
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 #url: "http://localhost:3000"
@@ -10,10 +10,12 @@ username: Joaquin
 user_description: Real gangsta shit.
 user_title: user_title
 email: joaquin.garmendia@ucsp.edu.pe
-twitter_username: joaquingc
 github_username:  joaquingx
-gplus_username:  lorem_ipsum
 disqus_username: disqus_lK1jz2N0OT
+goodreads_username: 54131961-joaquin-garmendia
+codeforces_username: LaFuckinGioconda
+archlinux_username: gioconda
+stackoverflow_username: 8852408/gioconda
 
 # Build settings
 markdown: kramdown
@@ -21,8 +23,7 @@ highlighter: rouge
 permalink: /:title/
 
 
-
-# html minify
+## html minify
 compress_html:
   clippings: all
   comments: all
@@ -34,16 +35,10 @@ compress_html:
 links:
   - title: Home
     url: /
-#  - title: Series
-#    url: /series
 # - title: Toughts
 #    url: /thoughts
-#  - title: Tags
-#    url: /tags
   - title: About Me
     url: /about
-  - title: CV
-    url: /cv
   - title: Competitive
     url: /competitive
   - title: vis

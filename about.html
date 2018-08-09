@@ -1,47 +1,193 @@
 ---
-layout: minimal
-title: "Acerca de mí"
+layout: about
 permalink: /about/index.html
-description: "Joaquin Garmendia Cabrera"
 ---
 
-<img itemprop="image" class="img-rounded" height="300" width="300" src="/assets/img/blog-author.jpg" alt="Joaquin Garmendia">
+<div class="about">
+    <h4 class="title">Joaquin Garmendia Cabrera</h4>
+    <div class="content">
+        <img itemprop="image" src="{{ '/assets/img/tirandofacha.jpg' | prepend: site.baseurl }}"
+             alt="Joaquin Garmendia">
+        <div class="icons-home-about">
+            <a aria-label="Send email" href="mailto:{{site.email}}">
+                <svg class="icon icon-email">
+                    <use xlink:href="#icon-email"></use>
+                </svg>
+            </a>
+            <a aria-label="My Google Plus" target="_blank" href="https://aur.archlinux.org/packages/?O=0&SeB=M&K={{site.archlinux_username}}&outdated=&SB=n&SO=a&PP=50&do_Search=Go">
+                <svg class="icon icon-archlinux">
+                    <use xlink:href="#icon-archlinux"></use>
+                </svg>
+            </a>
+            <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}">
+                <svg class="icon icon-github-alt">
+                    <use xlink:href="#icon-github-alt"></use>
+                </svg>
+            </a>
+            <a aria-label="My Stackoverflow" target="_blank" href="https://stackoverflow.com/users/{{site.stackoverflow_username}}">
+                <svg class="icon icon-stackoverflow">
+                    <use xlink:href="#icon-stackoverflow"></use>
+                </svg>
+            </a>
+            <a aria-label="My Coderfoces" target="_blank" href="http://codeforces.com/profile/{{site.codeforces_username}}">
+                <svg class="icon icon-codeforces">
+                    <use xlink:href="#icon-codeforces"></use>
+                </svg>
+            </a>
+            <a aria-label="My Goodreads" target="_blank" href="https://www.goodreads.com/user/show/{{site.goodreads_username}}">
+                <svg class="icon icon-goodreads">
+                    <use xlink:href="#icon-goodreads"></use>
+                </svg>
+            </a>
+        </div>
+        <p>I'm a Computer Science Student in <a href="https://ucsp.edu.pe">Universidad Catolica San Pablo</a>. My favorite
+            areas are Data Structures and Algorithms. Also, I'm a Linux Enthusiast, using archlinux since four years ago.
+        </p>
+    </div>
+</div>
 
-<h2>Acerca de mí</h2>
+<main id="scroll" class="about-skills" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <div class="skill-list">
+        <h2><i class="fa fa-graduation-cap"></i> Academic Activities</h2>
+        <div class="row">
+            <div class="skill">
+                <p>Competitive Programming</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>Contestant 2013-2016</p>
+                    <p>Coach of all teams in my University 2016-Present</p>
+                    <p>Instructor of Competitive Programming:<br>
+                        Contents can be found <a href="https://joaquingx.github.io/competitive">here</a> 2016-Present</p>
+                    <p class="desc-desc"></p>
+                    <p>Participation in Programming Competitive Camps:<br>
+                        <a href="http://maratona.ic.unicamp.br/MaratonaVerao2015/inscricoes.html">Brasil 2015</a>,
+                        <a href="https://sites.google.com/site/trainingcampargentina2016/english">Argentina 2016</a> &
+                        <a href="http://maratona.ic.unicamp.br/MaratonaVerao2017/">Brasil 2017</a>
+                    </p>
+                    <!--<p>I'm </p>-->
+                </div>
+                <!--<div class="time">-->
+                    <!--<p>2016-Present</p>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p><a href="https://www.facebook.com/ACMUCSP">ACM Chapter</a></p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>Chair 2017-2018</p>
+                    <p>Member since 2014</p>
+                    <p> We're in charge of activities to promote Computer Science:
+                    <li>Open Source Events: <a href="https://www.facebook.com/ACMUCSP/posts/773058602880870">Hacktoberfest</a>,
+                        <a href="https://www.facebook.com/ACMUCSP/posts/827461190773944">GsoC</a></li>
+                    <li>Education Events: <a href="https://www.facebook.com/events/1893857424263671/">Scholar
+                        Programming Contest(CEP)</a>, <a href="https://www.facebook.com/ACMUCSP/posts/778042595715804">Hour
+                        of Code</a></li>
+                    <li>Competitive Programming Events</li>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p>Top Third of School<br> Overall Average: 15.38/20</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>
+                        I developed interesting projects in my courses. For instance, I have built a Huffman coder and decoder, a
+                        GPU Parallel program for detecting Strongly Connected Components, meta-heuristics for solving
+                        combinatoric optimization problems, a small RDBMS that accepts SQL-like querys, a distributed graph
+                        system with redundancy, and a custom communication protocol
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill-list">
+        <h2><i class="fa fa-angellist"></i> Projects & Others</h2>
+        <div class="row">
+            <div class="skill">
+                <p><a href="https://joaquingx.github.io/gAntz.html">gAntz</a></p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    A visualization that helps to hunt alate Ant Queens,
+                        using estructured data from <a href="https://antweb.org/api.do">antweb</a> and crawled data from <a href="http://lamarabunta.org">lamarabunta</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p><a href="https://github.com/joaquingx/huffman">Huffman D&C</a></p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p> A Demostration of Huffman Algorithm working on any box</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p><a href="https://github.com/joaquingx/huffman">Contribution to Open Source</a></p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>I really like to contribute on Open Source Projects!, you can see my <a href="https://github.com/joaquingx">Github</a>, and my
+                        <a href="https://aur.archlinux.org/packages/?O=0&SeB=M&K={{site.archlinux_username}}&outdated=&SB=n&SO=a&PP=50&do_Search=Go">contributions in Archlinux</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill-list">
+        <h2><i class="fa fa-terminal"></i> Technology</h2>
+        <div class="row">
+            <div class="skill">
+                <p>Operating System</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>Linux & Windows</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p>Languages</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p> Spanish, C++, Python, Go & English</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p>Web</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>Javascript, Scrapy, Leaflet, Gulp, Stylus & JSON</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skill">
+                <p>Other</p>
+            </div>
+            <div class="content">
+                <div class="desc">
+                    <p>Bash, GNU awk, GNU sed, Emacs, LaTeX, PostgreSQL</p>
+                </div>
+            </div>
 
-<p> Actualmente soy estudiante de Ciencia de la Computación en la UCSP. Tengo un gran interés por algoritmos, estructuras
-	de datos y seguridad informática. </p>
+        </div>
+    </div>
+</main>
 
-<h2>Actividades Académicas</h2>
-<ul class="skill-list">
-	<li>Profesor de Programación Competitiva <div align="right"><i>2016 - Presente</i></div> </li>
-	<li>Miembro de equipo de Programación Competitiva <div align="right"><i>2015 - Presente</i></div> </li>
-	<li>Asistencia a Campamento de Programación en Argentina( Universidad Nacional del Sur ) <div align="right"><i>2016</i></div></li>
-	<li>Asistencia a Campamento de Programación en Brasil( UNICAMP ) <div align="right"><i>2015 y 2017</i></div></li>
-	<li>Presidente del Capítulo Estudiantil ACM UCSP <div align="right"><i>Presente</i></div></li>
-</ul>
-
-
-<h2>Tecnología</h2><h4>Procure ponerlas en orden según mi conocimiento</h4>
-
-<ul class="skill-list">
-	<li>Sistemas operativos : <b>Linux</b> y <s>Windows</s> </li>
-	<li>Lenguajes de Programación:  C++, Pyhon y Go</li>
-	<li>Bases de Datos: PostgresSQL</li>
-	<li>Web: HTML,CSS,Javascript,Django,Handlebars,Jinja </li>
-	<li>Otros: Emacs,Git,LaTeX,Bash,Zsh,Emacs-Lisp</li>
-</ul>
-
-<h2>Proyectos</h2>
-
-<ul>
-	<li><a href="https://github.com/joaquingx/Huffman">Huffman Encoding</a></li>
-</ul>
-
-<h2>Otros</h2>
-<ul class="skill-list">
-	<li>En mis ratos libre me gusta colaborar con proyectos de software libre</li>
-</ul>
 
 {% if jekyll.environment == "production" %}
      {% include analytics.html %}

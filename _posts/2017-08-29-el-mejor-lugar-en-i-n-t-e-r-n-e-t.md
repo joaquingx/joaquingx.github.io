@@ -5,7 +5,7 @@ date: 2017-08-29 17:00:24
 image: '/assets/img/'
 description: 
 tags: lo-fi vaporwave internet comunidad papita
-categories: thoughts
+categories: 
 comments: true
 twitter_text: 
 ---

@@ -55,8 +55,7 @@ gulp.task('stylus', function(){
 			compress: true
 		}))
 		.pipe(gulp.dest('_site/assets/css/'))
-		.pipe(browserSync.reload({stream:true}))
-		.pipe(gulp.dest('assets/css'))
+        .pipe(gulp.dest('assets/css/'))
 });
 
 /**
@@ -78,6 +77,15 @@ gulp.task('imagemin', function() {
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 		.pipe(gulp.dest('assets/img/'));
+	    // .pipe(gulp.dest(''))
+});
+
+
+gulp.task('cpFonts', function(){
+	return gulp.src('src/fonts/*')
+		.pipe(plumber())
+        // .pipe(gulp.dest('_site/assets/fonts/'))
+        .pipe(gulp.dest('assets/fonts'))
 });
 
 /**
@@ -85,7 +93,7 @@ gulp.task('imagemin', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-	gulp.watch('src/styl/**/*.styl', ['stylus']);
+	gulp.watch('src/styl/**/*.styl', ['stylus','jekyll-rebuild']);
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
 	gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
@@ -95,4 +103,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['js', 'stylus', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'imagemin', 'cpFonts', 'stylus', 'browser-sync', 'watch']);

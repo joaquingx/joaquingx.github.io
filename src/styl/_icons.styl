@@ -6,9 +6,9 @@ size(width = 30, height = 30)
     text-align center
     a
         display inline-block
-        padding rem(15px)
+        padding rem(10px)
         margin rem(2px)
-        border-radius 50%
+        border-radius 20%
         border rem(2px) solid sec
         line-height 0
         transition all .7s
@@ -22,14 +22,32 @@ size(width = 30, height = 30)
             .icon
                 fill main
 
-.down
-    position absolute
-    bottom 50px
-    width 100%
-    display block
-    text-align center
-    .icon
-        align(both)
-        size(100,100)
-        fill sec
-        animation pulse 1.3s infinite
+
+.icons-home-about
+    text-align right
+    padding-right rem(10px)
+    +below(cut)
+        text-align center
+    a
+        display inline-block
+        padding rem(10px)
+        margin rem(2px)
+        border-radius 20%
+        border rem(2px) solid main
+        line-height 0
+        transition all .7s
+        .icon
+            fill skimblack
+            size(18,18)
+            +above(cut)
+                size()
+        &:hover
+            background lightgray
+            .icon
+                fill main
+
+//.icons-home-about
+//    @extends $icons-home
+//    a
+//        .icon
+//            fill black

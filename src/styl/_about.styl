@@ -1,0 +1,67 @@
+.about
+  @extends $bg
+  center(rem(800px))
+  color skimblack
+  background sec
+  +below(cut)
+    height 70%
+  .title
+    //noalign()
+    padding-top rem(20px)
+    text-align center
+    +below(cut)
+      font-size rem(10px)
+    +below(320px)
+      visibility hidden
+    hackFont(1000)
+  .content
+    margin rem(10px) 0
+    cuteFont(100)
+    text-align justify
+    img
+      display block
+      +above(cut)
+        float left
+      border-radius 0%
+      margin auto
+      padding rem(10px)
+      height rem(180px)
+      width rem(180px)
+    p
+      padding-right rem(10px)
+      +below(cut)
+        padding-left rem(10px)
+
+a
+  text-decoration underline dotted
+  color skimblack
+
+.about-skills
+  center(rem(800px))
+  cuteFont(200)
+  color skimblack
+  .skill-list
+    col(2/2)
+    h2
+      cuteFont(800)
+      +below(800px)
+        padding-left rem(10px)
+    .row
+      .skill
+        text-align center
+        font-size rem(22px)
+        +above(cut)
+          col(1/2)
+          text-align right
+      .content
+        +above(cut)
+          col(1/2)
+        .desc
+          font-size rem(12px)
+          +below(cut)
+            text-align center
+          .desc-desc
+            padding-left rem(15px)
+        .time
+          text-align center
+          font-size rem(25px)
