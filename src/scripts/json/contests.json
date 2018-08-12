@@ -1,0 +1,14 @@
+[
+  {"Contest" : "Competitiva #1", "Begin" : "Sat, 07 Apr 2018 20:40:00 UTC", "End": "Sat, 14 Apr 2018 20:40:00 UTC",
+    "Problems":["734A", "705A","492A","144A","4A","617A","452A"]},
+  {"Contest" : "Competitiva #2", "Begin" : "Sat, 14 Apr 2018 20:40:00 UTC", "End": "Sat, 21 Apr 2018 20:40:00 UTC",
+    "Problems":["750A","706B","384A","348A","746A", "624A","126B", "271D","687A","770C","505D", "510C"]},
+  {"Contest" : "Competitiva #3", "Begin" : "Sat, 21 Apr 2018 20:40:00 UTC", "End": "Sat, 28 Apr 2018 20:40:00 UTC",
+   "Problems":["780B", "760B","729C","492B","701A","580B","772A", "221A"]},
+  {"Contest" : "Competitiva #4", "Begin" : "Sat, 28 Apr 2018 20:40:00 UTC", "End": "Sat, 05 May 2018 20:40:00 UTC",
+    "Problems":["721B", "271D","432D","490C","734A","672B","94A", "520C", "278B", "471D", "835D", "797C", "777D", "758D", "757C"]},
+  {"Contest" : "Competitiva #5", "Begin" : "Sat, 05 May 2018 20:40:00 UTC", "End": "Sat, 19 May 2018 20:40:00 UTC",
+    "Problems":["757C", "835D","797C","777D","758D"]},
+  {"Contest" : "Competitiva #6", "Begin" : "Sat, 19 May 2018 20:40:00 UTC", "End": "Sat, 26 May 2018 20:40:00 UTC",
+    "Problems":["835D", "126B","7D","636C","113B"]}
+]

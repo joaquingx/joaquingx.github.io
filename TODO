@@ -1,0 +1,3 @@
+* Anadir el charts.js al main.js comprimido
+* Hacer que json folder se copie a /assets/json
+* Agregar al pipeline el script.

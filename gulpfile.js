@@ -10,6 +10,8 @@ var gulp        = require('gulp'),
 	prefixer    = require('autoprefixer-stylus'),
 	imagemin    = require('gulp-imagemin'),
 	cp          = require('child_process');
+    run         = require('gulp-run');
+
 
 var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -88,6 +90,12 @@ gulp.task('cpFonts', function(){
         .pipe(gulp.dest('assets/fonts'))
 });
 
+gulp.task('cpJson', function(){
+	return gulp.src('src/json/*')
+		.pipe(plumber())
+        .pipe(gulp.dest('assets/fonts'))
+});
+
 /**
  * Watch stylus files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
@@ -103,4 +111,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['js', 'imagemin', 'cpFonts', 'stylus', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'imagemin', 'cpJson','cpFonts', 'stylus', 'browser-sync', 'watch']);

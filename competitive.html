@@ -20,15 +20,15 @@ description: "Class Resources"
 
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     {% for post in site.posts %}
-    {% if post.categories[0] == "competitive" %}
-    <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-        {{post.content}}
-        <div class="wacho {{ post.categories[0] | append: post.categories[1]}}"></div>
-    </article>
-    {% endif %}
+       {% if post.categories[0] == "competitive" %}
+            <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                {{post.content}}
+                <div class="wacho {{ post.categories[0] | append: post.categories[1]}}"></div>
+            </article>
+        {% endif %}
     {% endfor %}
 </main>
 
 <script>
-createData();
+    createData();
 </script>
