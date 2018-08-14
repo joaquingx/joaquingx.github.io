@@ -2,8 +2,8 @@
 title: P A P I T A
 description: Joaquin Garmendia a.k.a Gioconda
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "http://localhost:3000"
+url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#url: "http://localhost:3000"
 
 # User settings
 username: Joaquin
