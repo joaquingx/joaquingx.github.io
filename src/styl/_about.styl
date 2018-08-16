@@ -57,11 +57,18 @@ a
         +above(cut)
           col(1/2)
         .desc
-          font-size rem(12px)
+          font-size rem(14px)
           +below(cut)
             text-align center
           .desc-desc
             padding-left rem(15px)
         .time
-          text-align center
-          font-size rem(25px)
+          //text-align right
+          +above(800px)
+            float right
+          //+below(800px)
+          //text-align center
+          font-weight 600
+          //+below(800px)
+          //  float center
+          font-size rem(16px)

@@ -4,8 +4,8 @@ import datetime
 import json
 import pprint
 
-user_json = json.load(open("json/usuarios.json"))
-contest_json = json.load(open("json/contests.json"))
+user_json = json.load(open("src/scripts/json/usuarios.json"))
+contest_json = json.load(open("src/scripts/json/contests.json"))
 result_scores = []
 
 

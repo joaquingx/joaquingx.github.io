@@ -10,5 +10,8 @@
   {"Contest" : "Competitiva #5", "Begin" : "Sat, 05 May 2018 20:40:00 UTC", "End": "Sat, 19 May 2018 20:40:00 UTC",
     "Problems":["757C", "835D","797C","777D","758D"]},
   {"Contest" : "Competitiva #6", "Begin" : "Sat, 19 May 2018 20:40:00 UTC", "End": "Sat, 26 May 2018 20:40:00 UTC",
-    "Problems":["835D", "126B","7D","636C","113B"]}
+    "Problems":["835D", "126B","7D","636C","113B"]},
+  {"Contest" : "Competitiva #7", "Begin": "Sat, 26 May 2018 20:40:00 UTC",  "End":  "Sat, 09 Jun 2018 20:40:00 UTC",
+    "Problems": ["455A", "698A", "706C", "711C", "628B", "448C", "730J", "628D"]
+  }
 ]

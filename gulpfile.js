@@ -12,12 +12,15 @@ var gulp        = require('gulp'),
 	cp          = require('child_process');
     run         = require('gulp-run');
 
+const { exec } = require('child_process');
+
 
 var messages = {
-	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+	jekyllBuild: '<span style="color: grey">Running:</span> $jekyll build'
 };
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
+var scoresCommand = './src/scripts/getOutputPointsCodeforces.sh';
 
 /**
  * Build the Jekyll Site
@@ -95,6 +98,14 @@ gulp.task('cpJson', function(){
         .pipe(gulp.dest('assets/json'))
 });
 
+gulp.task('getScores', function(cb){
+    exec(scoresCommand, function(err, stdout, stderr){
+    	console.log(stdout);
+    	console.log(stderr);
+    	cb(err);
+	});
+});
+
 /**
  * Watch stylus files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
@@ -111,3 +122,4 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['js', 'imagemin', 'cpJson','cpFonts', 'stylus', 'browser-sync', 'watch']);
+gulp.task('beforeCommit', ['getScores', 'default']);

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python getPointsCodeforces.py | tr "\'" "\""  > ../json/final.json
+python ./src/scripts/getPointsCodeforces.py | tr "\'" "\""  >  src/json/final.json
