@@ -1,11 +1,12 @@
 function createData(){
     var dataPicante;
     var cntArray = new Map();
+//    var self = this.sort();
     d3.queue()
         .defer(d3.json,"/assets/json/final.json")
         .await(
             function(error, data){
-                console.log(dataPicante);
+//                console.log(dataPicante);
                 dataPicante = new Array(data[0].Scores.length);
                 for(var i = 0 ; i < data[0].Scores.length+1; i++){
                     dataPicante[i] = new Array();
@@ -20,6 +21,12 @@ function createData(){
                         //dataPicante[j].push(data[i].User);
                     }
                 }
+//                arr = []
+//                for(var x of m)
+//                   arr.push(x);
+//                arr.sort();
+//                sorted = new Map(arr)
+//                console.log(sorted);
                 cntArray.forEach(function (value,key,map) {
                     dataPicante[data[0].Scores.length].push({"name" : key , "value" : value});
                 });

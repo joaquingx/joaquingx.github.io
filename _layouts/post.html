@@ -14,7 +14,9 @@
             {% include author.html %}
             {% if jekyll.environment == "production" %}
                  {% include analytics.html %}
-                 {% include comments.html %}
+                <div class="comment">
+                    {% include comments.html %}
+                </div>
             {% endif %}
             {% include footer.html %}
         </section>
