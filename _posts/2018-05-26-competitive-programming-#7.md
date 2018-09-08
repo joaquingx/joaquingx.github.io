@@ -6,7 +6,7 @@ date: 2018-04-04 19:05:46
 image: '/assets/img/'
 description:
 tags:
-categories: competitive 6
+categories: competitive201801 6
 twitter_text:
 ---
 

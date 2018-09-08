@@ -1,14 +1,14 @@
 ---
 layout: post
-real: yes
 title: "Competitive Programming #1"
-date: 2018-04-04 19:05:46
+date: 2018-09-08 04:48:47
 image: '/assets/img/'
 description:
 tags:
-categories: competitive201801 0
+categories: competitive 0
 twitter_text:
 ---
+
 
 Competitive Class #1
 

@@ -6,6 +6,6 @@ date: 2018-04-04 19:05:60
 image: '/assets/img/'
 description:
 tags:
-categories: competitive final
+categories: competitive201801 final
 twitter_text:
 ---

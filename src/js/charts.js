@@ -1,4 +1,4 @@
-function createData(){
+function createData(classToRetrieve){
     var dataPicante;
     var cntArray = new Map();
 //    var self = this.sort();
@@ -54,7 +54,7 @@ function createData(){
                 for(var k = 0 ; k < dataPicante.length -1 ; k++){
                     var barChart = new britecharts.bar();
                     var chartTooltip = new britecharts.miniTooltip();
-                    var container = d3.select(".competitive" + k );
+                    var container = d3.select(classToRetrieve + k );
                     var newContainerWidth = container.node() ? container.node().getBoundingClientRect().width : false;
 
                     barChart
@@ -90,7 +90,7 @@ function createData(){
                     .on('customMouseMove', chartTooltip.update)
                     .on('customMouseOut', chartTooltip.hide);
 
-                d3.select(".competitivefinal" ).datum(dataPicante[dataPicante.length-1]).call(barChart);
+                d3.select(classToRetrieve+"final" ).datum(dataPicante[dataPicante.length-1]).call(barChart);
                 tooltipContainer = d3.select('.bar-chart .metadata-group');
                 tooltipContainer.datum([]).call(chartTooltip);
             }
