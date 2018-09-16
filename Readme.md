@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-This is A simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
+This is A Simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
 
 The Theme features:
 
