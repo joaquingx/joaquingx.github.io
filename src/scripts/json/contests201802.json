@@ -1,0 +1,6 @@
+[
+  {"Contest" : "Competitiva #1", "Begin" : "Mon, 10 Sep 2018 20:40:00 UTC", "End": "Mon, 17 Apr 2018 20:40:00 UTC",
+    "Problems":["617A", "318A","732A","144A","758A"]},
+  {"Contest" : "Competitiva #2", "Begin" : "Mon, 17 Sep 2018 20:40:00 UTC", "End": "Mon, 01 Oct 2018 20:40:00 UTC",
+    "Problems":["115A","580C","377A","687A","780C", "158A","339A", "1A"]}
+]

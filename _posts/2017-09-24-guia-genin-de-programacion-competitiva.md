@@ -5,7 +5,7 @@ date: 2017-09-24 22:54:37
 image: '/assets/img/'
 description:
 tags:
-categories:
+categories: thoughts
 twitter_text:
 ---
 Inicio de la guia ninja para convertirse en un programador competitivo nivel **Genin**

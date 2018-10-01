@@ -20,7 +20,7 @@ var messages = {
 };
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
-var scoresCommand = './src/scripts/getOutputPointsCodeforces.sh';
+var scoresCommand = './src/scripts/getOutputPointsCodeforces.sh final201802';
 
 /**
  * Build the Jekyll Site
