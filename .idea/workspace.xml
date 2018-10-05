@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dbd5917-15cf-4a65-bfd8-db97b766f2f7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scripts/json/contests201802.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/json/usuarios201802.json" afterDir="false" />
+    <list default="true" id="9dbd5917-15cf-4a65-bfd8-db97b766f2f7" name="Default" comment="Charts + Class #3">
+      <change afterPath="$PROJECT_DIR$/assets/json/final201801.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-09-24-guia-genin-de-programacion-competitiva.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-24-guia-genin-de-programacion-competitiva.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/final.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/final201801.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitive-201801.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitive-201801.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitive.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/getOutputPointsCodeforces.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/getOutputPointsCodeforces.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/getPointsCodeforces.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/getPointsCodeforces.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +15,11 @@
     <session id="815162651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,6 +55,7 @@
           <entry key="py" value="194" />
           <entry key="sh" value="76" />
           <entry key="styl" value="381" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -74,7 +64,7 @@
           <entry key="JSON" value="143" />
           <entry key="JavaScript" value="135" />
           <entry key="Markdown" value="96" />
-          <entry key="PLAIN_TEXT" value="419" />
+          <entry key="PLAIN_TEXT" value="440" />
           <entry key="Stylus" value="381" />
         </counts>
       </usages-collector>
@@ -93,7 +83,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-competitive-programming-overview.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="220">
@@ -129,11 +119,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/competitive-201801.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+                <state relative-caret-position="418">
+                  <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -177,12 +167,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_posts/2018-09-30-competitive-programming-2018-2-#overview.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="242">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -284,7 +274,13 @@
             <path>
               <item name="joaquingx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="joaquingx.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joaquingx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joaquingx.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,18 +331,27 @@
       <workItem from="1537032091777" duration="154000" />
       <workItem from="1537032301486" duration="242000" />
       <workItem from="1538341871415" duration="3902000" />
-      <workItem from="1538352359451" duration="494000" />
+      <workItem from="1538352359451" duration="623000" />
+      <workItem from="1538764495137" duration="371000" />
     </task>
+    <task id="LOCAL-00001" summary="Charts + Class #3">
+      <created>1538352957262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538352957262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11225000" />
+    <option name="totallyTimeSpent" value="11725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="57" width="1910" height="966" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22417465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11288605" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,6 +378,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Charts + Class #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Charts + Class #3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/morty.html" />
@@ -554,10 +563,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-30-competitive-programming-2018-2-#3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-08-competitive-programming-2018-2-#1.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-competitive-programming-2018-2-#2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-30-competitive-programming-2018-2-#overview.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-competitive-programming-overview.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -570,36 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/competitive-201801.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-30-competitive-programming-2018-2-#3.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-competitive-programming-2018-2-#2.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-competitive-programming-overview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-30-competitive-programming-2018-2-#overview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="418">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
