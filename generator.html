@@ -60,44 +60,6 @@
 
                             </div>
 
-                            <script>
-                                names = [
-                                    "Maximiliano Rodriguez Capusotto",
-                                    "Pedro Rivadavia Ferro",
-                                    "Maria Diaz Gallegos",
-                                    "Aitana Perez Disalvo"
-                                ];
-                                movies = [
-                                    'El Rey león',
-                                    'Rápidos y Furiosos: Hobbs & Shaw',
-                                    'Annabelle 3 Viene a casa',
-                                    'La Paisana Jacinta',
-                                    'Dolor y gloria',
-                                ];
-                                function getRandomArbitrary(min, max) {
-                                    return Math.random() * (max - min) + min;
-                                }
-                                var date = new Date();
-                                var result = date.toLocaleDateString("en-GB", { // you can skip the first argument
-                                    year: "numeric",
-                                    month: "2-digit",
-                                    day: "2-digit",
-                                });
-                                document.getElementById("date").innerHTML = result;
-                                if (date.getHours() < 13) {
-                                    document.getElementById("hour").innerHTML = ((date.getHours() - 2) % 12) + ":00 PM";
-                                }
-                                else {
-                                    document.getElementById("hour").innerHTML = "13:00 PM";
-                                }
-                                document.getElementById("name").innerHTML = names[Math.floor(getRandomArbitrary(0,4))]
-                                document.getElementById("sala").innerHTML = "SALA " + Math.floor(getRandomArbitrary(1,5))
-                                document.getElementById("movie").innerHTML = movies[Math.floor(getRandomArbitrary(0,5))]
-                                document.getElementById("number").innerHTML = "AY3BCC9"
-                            </script>
-
-
-
                         </td>
                     </tr>
                     <tr>
@@ -112,7 +74,7 @@
                             <table style="margin:0px;text-align:left;font-size:16px;color:#05589e;width:50%">
                                 <tbody><tr>
                                     <td style="width:10%"><img src="https://ci6.googleusercontent.com/proxy/N9HIAEASWNRoAP2ZCwHD_NuNu3Xtt3E28peILSrgdXdslaQNq3ahyVVrSLplVfV947u1I-eo_y6yJha8EPUZc7ZKlxxg-dk0vojn-C9ylDfgh5swYCwLGrfDmn2Z0Lk=s0-d-e1-ft#https://cineplanetcms.azureedge.net/galeria/mail-orden-de-compra/butacas.jpg" style="vertical-align:middle" alt="" class="CToWUd"></td>
-                                    <td style="width:50%">Tus Butacas: <strong>G6</strong></td>
+                                    <td style="width:50%">Tus Butacas: <strong id="chairs"></strong></td>
                                 </tr>
                                 </tbody></table>
                             <hr style="width:100%;padding:2px 0;height:1px;border:0;border-bottom:1px solid #f6f6f6">
@@ -276,3 +238,46 @@
             </div>
         </center>
         <img src="https://ci6.googleusercontent.com/proxy/630-EaCZQd5ZnkC_PnYpPRMXl2nMwnsE0aVfz3iZkQ_UqBg0OuqaqpC2s9lj_keB7lBADglIYFN7rJc0uecp5R8BqQzhAP4BqDQnS7DPVyQo4iT1jRZLz3EXVTTj5XmUjOQx7ytx1T4l_7HOQfCUOLkhP3jC3rypmjQrc8p1Ki7Y2L8Lx20LPt5RD_z50f9MuFCwdpg-aIlAHMJb8_NsklK-7cqWYSvh-y_l9WUOZ-Q4S_RGcPNeaDsE816Z_ursCj7VUTTGhlRs8pxuyCXskqCm07TwkLkrUHKLlev8oiLUCiaP_3DO5C1lh4CO8K7Yf2O2W3a4GYNKQFHMxCv_OaIaZR0-XsMZ-f19MEwCNceoOpPsSnTscs9LfmGzwVLzqRD-SZhGCwNvy6cESzAKT7ZPVN6Arm0qctKuVYArPEy_IBizfSgWOPU=s0-d-e1-ft#https://u6673981.ct.sendgrid.net/wf/open?upn=ngC6vPMdy6-2B1tnzv00XmCwWFAi37-2BTA0IoBCBKhxTpus7nIHMjhioEGLpQPR3b0vHncmFHs6HE0sUjE8jniCejUrbq1iDNX7TCRM8tLHo6Vz31M2Byq5IdLY2i1EUWip0l83aZGkjgypZPR3Lc1Mvl2jQFim3UQf2rFKszLV9zsHEqtsdIBP8pCTwnf-2BIe4OX61-2B2GCIO2vjxrpbQJZxUs7BlL4LNecFIlc4cUPVtyEmFVmuvZBLe19Yb884avwh" alt="" width="1" height="1" border="0" style="height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important" class="CToWUd"></div><div class="yj6qo"></div><div class="adL">
+
+        <script>
+            names = [
+                "Maximiliano Rodriguez Capusotto",
+                "Pedro Rivadavia Ferro",
+                "Maria Diaz Gallegos",
+                "Aitana Perez Disalvo"
+            ];
+            movies = [
+                'El Rey león',
+                'Rápidos y Furiosos: Hobbs & Shaw',
+                'Annabelle 3 Viene a casa',
+                'La Paisana Jacinta',
+                'Dolor y gloria',
+            ];
+            chairs = [
+                'A1, A2, A3, A4',
+                'F1, F2, F3, F4',
+                'G8, G9, G10, G11',
+                'D2, D3, D5, D7'
+            ];
+            function getRandomArbitrary(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+            var date = new Date();
+            var result = date.toLocaleDateString("en-GB", { // you can skip the first argument
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit",
+            });
+            document.getElementById("date").innerHTML = result;
+            if (date.getHours() < 13) {
+                document.getElementById("hour").innerHTML = ((date.getHours() - 2) % 12) + ":00 PM";
+            }
+            else {
+                document.getElementById("hour").innerHTML = "13:00 PM";
+            }
+            document.getElementById("name").innerHTML = names[Math.floor(getRandomArbitrary(0,4))]
+            document.getElementById("sala").innerHTML = "SALA " + Math.floor(getRandomArbitrary(1,5))
+            document.getElementById("movie").innerHTML = movies[Math.floor(getRandomArbitrary(0,5))]
+            document.getElementById("number").innerHTML = "AY3BCC9"
+            document.getElementById("chairs").innerHTML = chairs[Math.floor(getRandomArbitrary(0,4))]
+        </script>
