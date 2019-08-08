@@ -269,11 +269,12 @@
                 day: "2-digit",
             });
             document.getElementById("date").innerHTML = result;
-            if (date.getHours() < 13) {
+            if (date.getHours() > 13) {
+                console.log(date.getHours())
                 document.getElementById("hour").innerHTML = ((date.getHours() - 2) % 12) + ":00 PM";
             }
             else {
-                document.getElementById("hour").innerHTML = "13:00 PM";
+                document.getElementById("hour").innerHTML = "1:00 PM";
             }
             document.getElementById("name").innerHTML = names[Math.floor(getRandomArbitrary(0,4))]
             document.getElementById("sala").innerHTML = "SALA " + Math.floor(getRandomArbitrary(1,5))
