@@ -1,18 +1,16 @@
 # Site settings
-title: P A P I T A
-description: Joaquin Garmendia a.k.a Gioconda
+title: Personal Page
+description: Joaquin Garmendia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquingx.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 #url: "http://localhost:3000"
 
 # User settings
 username: Joaquin
-user_description: I like hot showers!
 user_title: user_title
-email: joaquin.garmendia@ucsp.edu.pe
+email: joaquingc123@gmail.com
 github_username:  joaquingx
 disqus_username: disqus_lK1jz2N0OT
-goodreads_username: 54131961-joaquin-garmendia
 codeforces_username: LaFuckinGioconda
 archlinux_username: gioconda
 stackoverflow_username: 8852408/gioconda
@@ -35,8 +33,6 @@ compress_html:
 links:
   - title: Home
     url: /
-# - title: Toughts
-#    url: /thoughts
   - title: About Me
     url: /about
   - title: Competitive
